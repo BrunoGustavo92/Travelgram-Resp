@@ -1,7 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: inherit;
 }
 
 :root {
@@ -14,15 +21,39 @@
   --text-color-secondary: #6C6C6C;
 
   --font-family: "Poppins", sans-serif;
-  --text-lg: bold 32px/125% var(--font-family);
+  --text-lg: bold 24px/125% var(--font-family);
   --text: 16px/150% var(--font-family);
   --text-md: 14px/170% var(--font-family);
   --text-sm: 12px/170% var(--font-family);
 
 }
 
-body {
+html {
   font: var(--text);
   color: var(--text-color-secondary);
+}
+
+body {
   background-color: var(--background-color);
 }
+
+h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+@media (width >= 80em) {
+  :root {
+  --text-lg: bold 32px/125% var(--font-family);
+  }
+}
+
