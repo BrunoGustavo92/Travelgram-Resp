@@ -26,6 +26,11 @@
   --text-md: 14px/170% var(--font-family);
   --text-sm: 12px/170% var(--font-family);
 
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 2rem;
+
+  --px-lg: 1rem;
 }
 
 html {
@@ -54,6 +59,8 @@ ul[role="list"] {
 @media (width >= 80em) {
   :root {
   --text-lg: bold 32px/125% var(--font-family);
+  --px-lg: 2rem;
+  --py-base: 1.25rem;
   }
 }
 
