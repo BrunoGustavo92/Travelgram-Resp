@@ -61,6 +61,10 @@ ul[role="list"] {
   list-style: none;
 }
 
+.surface-color {
+  background-color: var(--surface-color);
+}
+
 @media (width >= 80em) {
   :root {
   --text-lg: bold 32px/125% var(--font-family);
