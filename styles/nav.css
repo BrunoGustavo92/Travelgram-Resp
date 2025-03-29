@@ -1,0 +1,10 @@
+nav {
+  & a:first-child {
+    margin-right: auto;
+  }
+}
+
+nav ul li:last-child img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
