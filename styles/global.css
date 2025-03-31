@@ -52,6 +52,11 @@ a {
   color: inherit;
 }
 
+span {
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+}
+
 a:hover {
   color: var(--brand-color);
   text-decoration: underline;

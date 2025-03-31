@@ -1,0 +1,27 @@
+footer {
+  text-align: center;
+  display: grid;
+  gap: 16px;
+}
+
+.container-terms {
+  display: flex;    
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (width >= 80em) {
+  footer {
+    display: flex;
+    --py-base: 1.5rem;
+  }
+
+  footer span:nth-child(1) {
+    margin-right: auto;
+  }
+
+  & .container-terms {
+    display: flex;    
+    gap: 1.5rem;
+  }
+}
