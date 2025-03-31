@@ -1,0 +1,21 @@
+main {
+  gap: 16px;
+}
+
+main img {
+  max-width: 343px;
+}
+
+@media (width >= 80em) {
+  main {
+    --py-base: 1.5rem;
+    gap: 1.5rem;
+  }
+
+
+  main img {    
+    width: 17.875rem;
+    height: 17.875rem;
+  }
+
+}
