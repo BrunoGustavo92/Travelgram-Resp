@@ -17,7 +17,7 @@ Projeto de uma landing page responsiva de produto desenvolvido durante as aulas 
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="assets/Travelgram.png" width="100%">
+  <img alt="[Preview do projeto desenvolvido.](https://brunogustavo92.github.io/Travelgram-Resp/)" src="assets/Travelgram.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
